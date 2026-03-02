@@ -1,0 +1,40 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# C/C++ build artifacts
+cpp/build/
+cpp/**/CMakeFiles/
+cpp/**/CMakeCache.txt
+cpp/**/cmake_install.cmake
+cpp/**/Makefile
+cpp/**/compile_commands.json
+
+# Rust build artifacts
+rust/target/
+
+# FluxJIT build artifacts
+fluxjit/build/
+
+# Packaging outputs
+dist/
+*.tar.gz
+*.tar.gz.sha256
+
+# Runtime/profiling outputs
+cpp/profiling/
+cachegrind*.out
+*.prof
+/tmp/
