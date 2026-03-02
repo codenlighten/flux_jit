@@ -1,66 +1,132 @@
-# CPU Data-Oriented Benchmark Suite
+# 🚀 FluxJit: Data-Oriented Performance Laboratory
 
-This workspace now contains runnable benchmarks for the concepts we discussed:
+`FluxJit` is a reproducible systems-performance lab that demonstrates how Data-Oriented Design (DOD) outperforms object-centric layouts on modern CPUs.
 
-- AoS vs SoA data layout
-- Scalar vs vectorization-friendly iteration (`unseq` in C++)
-- Manual AVX2 SIMD update loops
-- Branchy SIMD masking patterns
-- Stream-compaction crossover (compute-both vs partition-then-process)
+This repository combines:
 
-## Workspace Layout
+1. **Investigation** (C++ and Rust benchmarks)
+2. **Theory** (Flux prototype spec + IR sketch)
+3. **Implementation** (strategy-aware C++ runtime + Python bridge)
+4. **Intelligence** (auto-tuning and self-healing policy switching)
+5. **Distribution** (packaging and smoke-test verification)
 
-- `cpp/`
-  - `CMakeLists.txt`
-  - `bench_aos_soa_simd_compaction.cpp`
-  - `bench_ecs_vs_oop.cpp`
-- `rust/`
-  - `Cargo.toml`
-  - `src/lib.rs`
-  - `benches/aos_soa_simd_compaction.rs`
-  - `benches/ecs_vs_oop.rs`
+---
 
-## Run: C++ Benchmarks
+## 🔬 What This Repo Proves
 
-Requirements:
+From measured runs in `RESULTS.md`:
 
-- CMake 3.16+
-- C++20 compiler
-- Google Benchmark installed (system package or vcpkg/conan)
+- **SoA vs AoS:** up to **~19×** faster iteration from cache-friendly layout.
+- **ECS vs OOP:** **~7–8×** in mixed workloads, and up to **~28×** in pointer-chasing worst cases.
+- **Compaction vs Masking:** partition-then-process is **~2×** faster once branch work is non-trivial.
+- **SIMD:** AVX2 provides additional gains for suitable kernels after layout is fixed.
 
-Build and run:
+The key lesson: architecture and memory layout dominate micro-optimizations.
 
-1. Configure and build in `cpp/`.
-2. Run `cpu_benchmarks` for micro-optimizations (AoS/SoA/SIMD/compaction).
-3. Run `ecs_benchmarks` for architectural patterns (ECS vs OOP).
-4. (Optional) export JSON from Google Benchmark for charting.
+---
 
-Suggested flags for vectorization reports:
+## 🧭 Repository Map
 
-- Clang: `-Rpass=loop-vectorize`
-- GCC: `-fopt-info-vec-optimized`
+- `cpp/` — Google Benchmark suites (AoS/SoA/SIMD/compaction + ECS vs OOP + false sharing)
+- `rust/` — Criterion benchmark mirrors for cross-language validation
+- `fluxjit/` — C-ABI runtime, strategy kernels, sweep reports, and Python wrapper
+- `scripts/` — packaging and unpack/smoke verification scripts
+- `RESULTS.md` — consolidated benchmark results
+- `FLUX_PROTOTYPE_SPEC.md` — prototype design specification
+- `FLUX_IR_SKETCH.md` — IR and lowering sketch
+- `PERFORMANCE_HIERARCHY.md` — optimization priority model
+- `PROJECT_ARCHIVE_EXEC_SUMMARY.md` and `STATUS.md` — executive/project tracking artifacts
+- `PROJECT_COMPLETION.txt` — milestone freeze certificate
+- `PHASE2_ROADMAP.md` — productization plan and sprint gates
+- `SHA256_MANIFEST.txt` — integrity checksum manifest for the current workspace
 
-## Run: Rust Benchmarks
+---
 
-Requirements:
+## ⚡ Quick Start
 
-- Rust toolchain (`cargo`)
+### Reproduce C++ Benchmarks
 
-From `rust/`:
+```bash
+cd cpp
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j
+./build/cpu_benchmarks
+./build/ecs_benchmarks
+./build/false_sharing_benchmarks
+```
 
-1. Run `cargo bench --bench aos_soa_simd_compaction` for micro-benchmarks.
-2. Run `cargo bench --bench ecs_vs_oop` for architectural patterns.
-3. Open the generated Criterion HTML report in `target/criterion/report/index.html`.
+### Reproduce Rust Benchmarks
 
-## Fair Benchmarking Checklist
+```bash
+cd rust
+cargo bench --bench aos_soa_simd_compaction
+cargo bench --bench ecs_vs_oop
+```
 
-- Disable turbo/dynamic scaling when possible.
-- Pin to a core for repeatability.
-- Keep background load low.
-- Trust warmup-aware frameworks (Google Benchmark / Criterion).
+### Build and Smoke-Test FluxJit
+
+```bash
+cd fluxjit
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j
+python3 python/test_smoke.py
+```
+
+---
+
+## 🧠 Adaptive Runtime (FluxJit)
+
+The `Damage` kernel supports multiple execution strategies:
+
+- `masked`
+- `compacted`
+
+Runtime tooling includes:
+
+- `fluxjit/python/autoscale.py` — controlled strategy sweeps
+- `fluxjit/python/auto_policy.py` — threshold + hysteresis policy selection and hot-swapping
+- `--policy-from-sweep` mode — derive runtime policy from prior sweep markdown
+
+See:
+
+- `fluxjit/DAMAGE_STRATEGY_SWEEP.md`
+- `fluxjit/DAMAGE_STRATEGY_SWEEP_2D.md`
+
+---
+
+## 📦 Portability and Distribution
+
+Package and validate the full lab:
+
+```bash
+./scripts/package_lab.sh
+./scripts/unpack_and_smoke.sh dist/fluxjit_speed_lab_*.tar.gz
+```
+
+This supports clean handoff to stakeholders and reproducible verification on other hardware.
+
+---
+
+## ✅ Benchmarking Hygiene
+
+- Keep CPU frequency behavior consistent when possible.
+- Minimize background load.
+- Use warmup-aware frameworks (Google Benchmark / Criterion).
 - Use anti-DCE guards (`DoNotOptimize`, `black_box`).
+- Prefer repeated runs and confidence intervals over single-shot conclusions.
 
-## Notes
+---
 
-- AVX2 benchmark functions are compiled only when AVX2 is enabled (`__AVX2__`).
-- The stream-compaction benchmark in Rust intentionally demonstrates algorithmic trade-offs and includes data movement overhead.
+## 📌 Project Status
+
+**Status:** Research-complete baseline frozen; Phase 2 (Polyglot Bridge) active.
+
+If you’re new here, start with `RESULTS.md` for measured outcomes, then `fluxjit/python/test_smoke.py` for an end-to-end runtime sanity check.
+
+---
+
+## 👤 Author
+
+**Gregory Ward**  
+CTO, **SmartLedger Technology**  
+https://smartledger.technology
