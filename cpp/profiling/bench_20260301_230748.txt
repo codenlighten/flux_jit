@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------------------------------------
+Benchmark                                                    Time             CPU   Iterations UserCounters...
+--------------------------------------------------------------------------------------------------------------
+BM_PaddedNoFalseSharing/real_time/threads:12              3524 ns        37968 ns        72396 updates=18.5979G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3483 ns        38074 ns        72396 updates=18.8166G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3532 ns        38009 ns        72396 updates=18.5558G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3467 ns        37917 ns        72396 updates=18.9015G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3536 ns        38301 ns        72396 updates=18.5339G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3645 ns        38472 ns        72396 updates=17.9775G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3492 ns        38208 ns        72396 updates=18.7666G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3847 ns        39025 ns        72396 updates=17.0352G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3260 ns        38062 ns        72396 updates=20.1012G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3275 ns        36974 ns        72396 updates=20.0112G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3301 ns        39187 ns        72396 updates=19.8512G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3391 ns        39534 ns        72396 updates=19.3285G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3279 ns        36619 ns        72396 updates=19.9843G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3872 ns        38933 ns        72396 updates=16.9252G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3347 ns        39707 ns        72396 updates=19.5792G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3384 ns        39498 ns        72396 updates=19.3685G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3578 ns        37205 ns        72396 updates=18.3153G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3405 ns        39709 ns        72396 updates=19.2476G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3219 ns        36992 ns        72396 updates=20.3588G/s
+BM_PaddedNoFalseSharing/real_time/threads:12              3822 ns        38685 ns        72396 updates=17.1456G/s
+BM_PaddedNoFalseSharing/real_time/threads:12_mean         3483 ns        38354 ns           20 updates=18.8701G/s
+BM_PaddedNoFalseSharing/real_time/threads:12_median       3475 ns        38254 ns           20 updates=18.8591G/s
+BM_PaddedNoFalseSharing/real_time/threads:12_stddev        195 ns          938 ns           20 updates=1.02265G/s
+BM_PaddedNoFalseSharing/real_time/threads:12_cv           5.60 %          2.44 %            20 updates=5.42%

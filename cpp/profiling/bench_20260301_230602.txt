@@ -1,0 +1,37 @@
+-----------------------------------------------------------------------------------------------------
+Benchmark                                           Time             CPU   Iterations UserCounters...
+-----------------------------------------------------------------------------------------------------
+BM_FalseSharing/real_time/threads:8              1750 ns         1828 ns       159280 updates=584.987M/s
+BM_FalseSharing/real_time/threads:8              1806 ns         1919 ns       159280 updates=567.017M/s
+BM_FalseSharing/real_time/threads:8              1783 ns         1870 ns       159280 updates=574.328M/s
+BM_FalseSharing/real_time/threads:8              1775 ns         1850 ns       159280 updates=577.054M/s
+BM_FalseSharing/real_time/threads:8              1759 ns         1835 ns       159280 updates=582.09M/s
+BM_FalseSharing/real_time/threads:8              1769 ns         1842 ns       159280 updates=578.895M/s
+BM_FalseSharing/real_time/threads:8              1771 ns         1843 ns       159280 updates=578.166M/s
+BM_FalseSharing/real_time/threads:8              1773 ns         1849 ns       159280 updates=577.63M/s
+BM_FalseSharing/real_time/threads:8              1769 ns         1839 ns       159280 updates=578.98M/s
+BM_FalseSharing/real_time/threads:8              1769 ns         1846 ns       159280 updates=578.792M/s
+BM_FalseSharing/real_time/threads:8              1769 ns         1834 ns       159280 updates=578.725M/s
+BM_FalseSharing/real_time/threads:8              1768 ns         1831 ns       159280 updates=579.13M/s
+BM_FalseSharing/real_time/threads:8              1766 ns         1836 ns       159280 updates=579.808M/s
+BM_FalseSharing/real_time/threads:8              1765 ns         1837 ns       159280 updates=580.212M/s
+BM_FalseSharing/real_time/threads:8              1752 ns         1832 ns       159280 updates=584.609M/s
+BM_FalseSharing/real_time/threads:8              1749 ns         1823 ns       159280 updates=585.543M/s
+BM_FalseSharing/real_time/threads:8              1712 ns         1804 ns       159280 updates=598.28M/s
+BM_FalseSharing/real_time/threads:8              1715 ns         1803 ns       159280 updates=596.966M/s
+BM_FalseSharing/real_time/threads:8              1787 ns         1872 ns       159280 updates=572.971M/s
+BM_FalseSharing/real_time/threads:8              1767 ns         1842 ns       159280 updates=579.587M/s
+BM_FalseSharing/real_time/threads:8              1779 ns         1867 ns       159280 updates=575.754M/s
+BM_FalseSharing/real_time/threads:8              1775 ns         1840 ns       159280 updates=576.821M/s
+BM_FalseSharing/real_time/threads:8              1781 ns         1861 ns       159280 updates=574.904M/s
+BM_FalseSharing/real_time/threads:8              1773 ns         1849 ns       159280 updates=577.48M/s
+BM_FalseSharing/real_time/threads:8              1771 ns         1836 ns       159280 updates=578.102M/s
+BM_FalseSharing/real_time/threads:8              1770 ns         1844 ns       159280 updates=578.612M/s
+BM_FalseSharing/real_time/threads:8              1762 ns         1840 ns       159280 updates=581.011M/s
+BM_FalseSharing/real_time/threads:8              1761 ns         1832 ns       159280 updates=581.639M/s
+BM_FalseSharing/real_time/threads:8              1755 ns         1813 ns       159280 updates=583.478M/s
+BM_FalseSharing/real_time/threads:8              1754 ns         1828 ns       159280 updates=583.899M/s
+BM_FalseSharing/real_time/threads:8_mean         1765 ns         1842 ns           30 updates=580.182M/s
+BM_FalseSharing/real_time/threads:8_median       1769 ns         1839 ns           30 updates=578.937M/s
+BM_FalseSharing/real_time/threads:8_stddev       18.3 ns         21.9 ns           30 updates=6.08378M/s
+BM_FalseSharing/real_time/threads:8_cv           1.04 %          1.19 %            30 updates=1.05%

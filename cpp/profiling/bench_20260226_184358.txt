@@ -1,0 +1,27 @@
+-----------------------------------------------------------------------------------------------
+Benchmark                                     Time             CPU   Iterations UserCounters...
+-----------------------------------------------------------------------------------------------
+BM_OOP_PointerChasing/1048576          31460900 ns     31456950 ns            9 items_per_second=33.3337M/s
+BM_OOP_PointerChasing/1048576          29831263 ns     29829503 ns            9 items_per_second=35.1523M/s
+BM_OOP_PointerChasing/1048576          30068458 ns     30063779 ns            9 items_per_second=34.8784M/s
+BM_OOP_PointerChasing/1048576          27062940 ns     27060144 ns            9 items_per_second=38.7498M/s
+BM_OOP_PointerChasing/1048576          26041035 ns     26037685 ns            9 items_per_second=40.2715M/s
+BM_OOP_PointerChasing/1048576          26533701 ns     26533488 ns            9 items_per_second=39.519M/s
+BM_OOP_PointerChasing/1048576          27151581 ns     27146801 ns            9 items_per_second=38.6261M/s
+BM_OOP_PointerChasing/1048576          25897931 ns     25892219 ns            9 items_per_second=40.4977M/s
+BM_OOP_PointerChasing/1048576          27959027 ns     27957761 ns            9 items_per_second=37.5057M/s
+BM_OOP_PointerChasing/1048576          25878003 ns     25873493 ns            9 items_per_second=40.527M/s
+BM_OOP_PointerChasing/1048576          31410872 ns     31407687 ns            9 items_per_second=33.386M/s
+BM_OOP_PointerChasing/1048576          28386727 ns     28381912 ns            9 items_per_second=36.9452M/s
+BM_OOP_PointerChasing/1048576          26687178 ns     26685711 ns            9 items_per_second=39.2935M/s
+BM_OOP_PointerChasing/1048576          27090640 ns     27085663 ns            9 items_per_second=38.7133M/s
+BM_OOP_PointerChasing/1048576          27204545 ns     27199808 ns            9 items_per_second=38.5509M/s
+BM_OOP_PointerChasing/1048576          26391511 ns     26387715 ns            9 items_per_second=39.7373M/s
+BM_OOP_PointerChasing/1048576          27509165 ns     27506124 ns            9 items_per_second=38.1215M/s
+BM_OOP_PointerChasing/1048576          26872238 ns     26869210 ns            9 items_per_second=39.0252M/s
+BM_OOP_PointerChasing/1048576          27810501 ns     27807081 ns            9 items_per_second=37.709M/s
+BM_OOP_PointerChasing/1048576          26155668 ns     26152250 ns            9 items_per_second=40.0951M/s
+BM_OOP_PointerChasing/1048576_mean     27670194 ns     27666749 ns           20 items_per_second=38.0319M/s
+BM_OOP_PointerChasing/1048576_median   27121111 ns     27116232 ns           20 items_per_second=38.6697M/s
+BM_OOP_PointerChasing/1048576_stddev    1723635 ns      1723676 ns           20 items_per_second=2.22833M/s
+BM_OOP_PointerChasing/1048576_cv           6.23 %          6.23 %            20 items_per_second=5.86%

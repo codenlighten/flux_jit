@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------------------------------------
+Benchmark                                                   Time             CPU   Iterations UserCounters...
+-------------------------------------------------------------------------------------------------------------
+BM_PaddedNoFalseSharing/real_time/threads:8              1774 ns         1869 ns       161008 updates=577.273M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1770 ns         1863 ns       161008 updates=578.411M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1777 ns         1874 ns       161008 updates=576.348M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1762 ns         1851 ns       161008 updates=581.234M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1754 ns         1831 ns       161008 updates=583.749M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1748 ns         1824 ns       161008 updates=585.929M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1752 ns         1832 ns       161008 updates=584.331M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1758 ns         1833 ns       161008 updates=582.455M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1750 ns         1829 ns       161008 updates=585.078M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1750 ns         1825 ns       161008 updates=585.264M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1750 ns         1823 ns       161008 updates=585.241M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1756 ns         1832 ns       161008 updates=583.014M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1752 ns         1829 ns       161008 updates=584.579M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1762 ns         1840 ns       161008 updates=581.21M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1750 ns         1826 ns       161008 updates=585.015M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1752 ns         1829 ns       161008 updates=584.581M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1762 ns         1822 ns       161008 updates=581.27M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1753 ns         1826 ns       161008 updates=584.277M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1731 ns         1820 ns       161008 updates=591.561M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1740 ns         1805 ns       161008 updates=588.54M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1756 ns         1838 ns       161008 updates=582.988M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1751 ns         1827 ns       161008 updates=584.87M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1748 ns         1819 ns       161008 updates=585.904M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1751 ns         1828 ns       161008 updates=584.933M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1757 ns         1832 ns       161008 updates=582.828M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1736 ns         1822 ns       161008 updates=589.727M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1767 ns         1854 ns       161008 updates=579.532M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1758 ns         1844 ns       161008 updates=582.383M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1756 ns         1835 ns       161008 updates=583.132M/s
+BM_PaddedNoFalseSharing/real_time/threads:8              1763 ns         1841 ns       161008 updates=580.878M/s
+BM_PaddedNoFalseSharing/real_time/threads:8_mean         1755 ns         1834 ns           30 updates=583.551M/s
+BM_PaddedNoFalseSharing/real_time/threads:8_median       1753 ns         1830 ns           30 updates=584.013M/s
+BM_PaddedNoFalseSharing/real_time/threads:8_stddev       9.93 ns         15.2 ns           30 updates=3.30372M/s
+BM_PaddedNoFalseSharing/real_time/threads:8_cv           0.57 %          0.83 %            30 updates=0.57%

@@ -1,0 +1,15 @@
+[package]
+name = "cpu_data_oriented_bench"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+
+[[bench]]
+name = "aos_soa_simd_compaction"
+harness = false
+
+[[bench]]
+name = "ecs_vs_oop"
+harness = false

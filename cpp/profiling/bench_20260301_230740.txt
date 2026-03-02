@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------------------
+Benchmark                                            Time             CPU   Iterations UserCounters...
+------------------------------------------------------------------------------------------------------
+BM_FalseSharing/real_time/threads:12            278680 ns      3285144 ns          912 updates=235.166M/s
+BM_FalseSharing/real_time/threads:12            331603 ns      3898890 ns          912 updates=197.634M/s
+BM_FalseSharing/real_time/threads:12            328905 ns      3859472 ns          912 updates=199.255M/s
+BM_FalseSharing/real_time/threads:12            331212 ns      3899862 ns          912 updates=197.867M/s
+BM_FalseSharing/real_time/threads:12            332515 ns      3956790 ns          912 updates=197.092M/s
+BM_FalseSharing/real_time/threads:12            340463 ns      3976529 ns          912 updates=192.491M/s
+BM_FalseSharing/real_time/threads:12            337523 ns      4020414 ns          912 updates=194.168M/s
+BM_FalseSharing/real_time/threads:12            339725 ns      4046927 ns          912 updates=192.909M/s
+BM_FalseSharing/real_time/threads:12            328562 ns      3906435 ns          912 updates=199.463M/s
+BM_FalseSharing/real_time/threads:12            322764 ns      3845379 ns          912 updates=203.046M/s
+BM_FalseSharing/real_time/threads:12            281326 ns      3233087 ns          912 updates=232.954M/s
+BM_FalseSharing/real_time/threads:12            315269 ns      3670142 ns          912 updates=207.873M/s
+BM_FalseSharing/real_time/threads:12            325748 ns      3868933 ns          912 updates=201.186M/s
+BM_FalseSharing/real_time/threads:12            337603 ns      4013387 ns          912 updates=194.121M/s
+BM_FalseSharing/real_time/threads:12            324544 ns      3772396 ns          912 updates=201.932M/s
+BM_FalseSharing/real_time/threads:12            331103 ns      3806073 ns          912 updates=197.932M/s
+BM_FalseSharing/real_time/threads:12            327683 ns      3903557 ns          912 updates=199.998M/s
+BM_FalseSharing/real_time/threads:12            333804 ns      3940093 ns          912 updates=196.331M/s
+BM_FalseSharing/real_time/threads:12            320618 ns      3813794 ns          912 updates=204.405M/s
+BM_FalseSharing/real_time/threads:12            324422 ns      3819000 ns          912 updates=202.008M/s
+BM_FalseSharing/real_time/threads:12_mean       324704 ns      3826815 ns           20 updates=202.392M/s
+BM_FalseSharing/real_time/threads:12_median     328734 ns      3883912 ns           20 updates=199.359M/s
+BM_FalseSharing/real_time/threads:12_stddev      16593 ns       214343 ns           20 updates=11.5177M/s
+BM_FalseSharing/real_time/threads:12_cv           5.11 %          5.60 %            20 updates=5.69%

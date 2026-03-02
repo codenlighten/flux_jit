@@ -1,0 +1,14 @@
+/home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/deps/serde-368647385b741cfb.d: /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/build/serde-0b7cc1ee46394869/out/private.rs
+
+/home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/deps/libserde-368647385b741cfb.rlib: /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/build/serde-0b7cc1ee46394869/out/private.rs
+
+/home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/deps/libserde-368647385b741cfb.rmeta: /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs /home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs /home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/build/serde-0b7cc1ee46394869/out/private.rs
+
+/home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/lib.rs:
+/home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/integer128.rs:
+/home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/mod.rs:
+/home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/de.rs:
+/home/greg/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serde-1.0.228/src/private/ser.rs:
+/home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/build/serde-0b7cc1ee46394869/out/private.rs:
+
+# env-dep:OUT_DIR=/home/greg/Documents/DEV/CODING_TESTS_WORK/CPU_WORK/rust/target/release/build/serde-0b7cc1ee46394869/out

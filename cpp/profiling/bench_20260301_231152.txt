@@ -1,0 +1,22 @@
+-----------------------------------------------------------------------------------------------------
+Benchmark                                           Time             CPU   Iterations UserCounters...
+-----------------------------------------------------------------------------------------------------
+BM_FalseSharing/real_time/threads:2            660097 ns      1320057 ns          484 updates=99.2824M/s
+BM_FalseSharing/real_time/threads:2            691654 ns      1383020 ns          484 updates=94.7525M/s
+BM_FalseSharing/real_time/threads:2            667948 ns      1335788 ns          484 updates=98.1154M/s
+BM_FalseSharing/real_time/threads:2            673220 ns      1346284 ns          484 updates=97.347M/s
+BM_FalseSharing/real_time/threads:2            652461 ns      1304539 ns          484 updates=100.444M/s
+BM_FalseSharing/real_time/threads:2            607217 ns      1214305 ns          484 updates=107.928M/s
+BM_FalseSharing/real_time/threads:2            604349 ns      1208642 ns          484 updates=108.441M/s
+BM_FalseSharing/real_time/threads:2            592283 ns      1184479 ns          484 updates=110.65M/s
+BM_FalseSharing/real_time/threads:2            603092 ns      1205889 ns          484 updates=108.667M/s
+BM_FalseSharing/real_time/threads:2            653603 ns      1307116 ns          484 updates=100.269M/s
+BM_FalseSharing/real_time/threads:2            620119 ns      1240157 ns          484 updates=105.683M/s
+BM_FalseSharing/real_time/threads:2            563308 ns      1126273 ns          484 updates=116.341M/s
+BM_FalseSharing/real_time/threads:2            607571 ns      1214828 ns          484 updates=107.866M/s
+BM_FalseSharing/real_time/threads:2            598929 ns      1197732 ns          484 updates=109.422M/s
+BM_FalseSharing/real_time/threads:2            594245 ns      1188369 ns          484 updates=110.285M/s
+BM_FalseSharing/real_time/threads:2_mean       626006 ns      1251832 ns           15 updates=105.033M/s
+BM_FalseSharing/real_time/threads:2_median     607571 ns      1214828 ns           15 updates=107.866M/s
+BM_FalseSharing/real_time/threads:2_stddev      37277 ns        74553 ns           15 updates=6.19535M/s
+BM_FalseSharing/real_time/threads:2_cv           5.95 %          5.96 %            15 updates=5.90%
